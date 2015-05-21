@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="ms-design-extensionType" content="Search" />
+    <title>Page des résultats de recherche</title>
+
+    <!-- Références WinJS -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/search/searchResults.css" rel="stylesheet" />
+    <script src="/js/track.js"></script>
+    <script src="/pages/search/searchResults.js"></script>
+</head>
+<body>
+
+<h1>Résultats de recherche</h1>
+
+<br/><br/>
+
+<a href="/pages/home/home.html"><button>BACK TO HOMEPAGE</button></a>
+
+<!-- Simple template for the ListView instantiation -->
+<div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+    <div class="smallListIconTextItem">
+        <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture"/>
+        <div class="smallListIconTextItem-Detail">
+            <h4 data-win-bind="textContent: title"></h4>
+            <h6 data-win-bind="textContent: text"></h6>
+        </div>
+    </div>
+</div>
+
+<!-- The declarative markup necesary for ListView instantiation -->
+<!-- Call WinJS.UI.processAll() in your initialization code -->
+<div class="container">
+    <div id="searchList" class="listView win-selectionstylefilled"
+         data-win-control="WinJS.UI.ListView"
+         data-win-options="{
+                    itemDataSource: SearchRes.ListView.data.dataSource,
+                    itemTemplate: select('.smallListIconTextTemplate'),
+                    selectionMode: 'single',
+                    tapBehavior: 'invoke',
+                    layout: { type: WinJS.UI.ListLayout },
+                    oniteminvoked : handler}">
+    </div>
+</div>
+
+</body>
+</html>

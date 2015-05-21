@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>My parcels</title>
+
+    <!-- Références WinJS -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/parcels/parcels.css" rel="stylesheet"/>
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/track.js"></script>
+    <script src="/js/toast.js"></script>
+    <script src="/pages/parcels/parcels.js"></script>
+</head>
+<body>
+    <!-- Contenu à charger et afficher. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button data-win-control="WinJS.UI.BackButton"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Mes colis</span>
+            </h1>
+            <img src="/images/box.png" />
+        </header>
+        <div>
+            <div id="addParcelForm">
+                <select id="carrier_uuid_box">
+                    <option value="">Select a carrier</option>
+                    <option value="colissimo">Colissimo</option>
+                    <option value="chronopost">Chronopost</option>
+                    <option value="ups">UPS</option>
+                    <option value="dhl">DHL</option>
+                    <option value="tnt">TNT</option>
+                    <option value="dpd">DPD</option>
+                    <option value="fedex">FedEx</option>
+                </select>
+                <input type="text" id="code_tracking_textbox"/>
+                <button id="add_parcel_button">Add parcel</button>
+            </div>
+
+            <!-- Simple template for the ListView instantiation -->
+            <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+                <div class="smallListIconTextItem">
+                    <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />
+                    <div class="smallListIconTextItem-Detail">
+                        <h4 data-win-bind="textContent: title"></h4>
+                        <h6 data-win-bind="textContent: text"></h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The declarative markup necesary for ListView instantiation -->
+            <!-- Call WinJS.UI.processAll() in your initialization code -->
+            <div class="container">
+                <div id="parcelsList" class="listView win-selectionstylefilled"
+                     data-win-control="WinJS.UI.ListView"
+                     data-win-options="{
+                itemDataSource: Parcels.ListView.data.dataSource,
+                itemTemplate: select('.smallListIconTextTemplate'),
+                selectionMode: 'single',
+                tapBehavior: 'invoke',
+                layout: { type: WinJS.UI.ListLayout },
+                oniteminvoked : handler}">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

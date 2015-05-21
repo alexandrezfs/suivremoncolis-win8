@@ -1,0 +1,15 @@
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bin\Debug\ReverseMap\resources.pri
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bin\Debug\AppxManifest.xml
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bin\Debug\SuivreMonColis.build.appxrecipe
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\priconfig.xml
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\priconfig.xml.intermediate
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\layout.resfiles
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\layout.resfiles.intermediate
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\resources.resfiles
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\resources.resfiles.intermediate
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\pri.resfiles
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\pri.resfiles.intermediate
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\qualifiers.txt
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\qualifiers.txt.intermediate
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bld\Debug\ProjectArchitectures.txt

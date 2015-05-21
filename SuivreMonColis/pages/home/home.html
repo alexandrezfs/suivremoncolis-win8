@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>SuivreMonColis</title>
+
+    <!-- Références WinJS -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet"/>
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/settings.js"></script>
+    <script src="/js/track.js"></script>
+    <script src="/js/toast.js"></script>
+    <script src="/pages/home/home.js"></script>
+</head>
+<body>
+    <!-- Contenu à charger et afficher. -->
+
+    <div id="container">
+
+        <h1>Suivre mon colis</h1>
+
+
+        <img src="/images/home.png" />
+        <div id="loaderContainer">
+            <select id="carrier_uuid_box">
+                <option value="">Select a carrier</option>
+                <option value="colissimo">Colissimo</option>
+                <option value="chronopost">Chronopost</option>
+                <option value="ups">UPS</option>
+                <option value="dhl">DHL</option>
+                <option value="tnt">TNT</option>
+                <option value="dpd">DPD</option>
+                <option value="fedex">FedEx</option>
+            </select>
+            <input type="text" id="code_tracking_textbox" />
+            <button id="track_button">Track</button>
+            <br/>
+            <br/>
+            <progress id="loader" style="display: none; color: white;"></progress>
+        </div>
+
+        <!-- Simple template for the ListView instantiation -->
+        <div class="smallListIconTextTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+            <div class="smallListIconTextItem">
+                <img src="#" class="smallListIconTextItem-Image" data-win-bind="src: picture" />
+                <div class="smallListIconTextItem-Detail">
+                    <h4 data-win-bind="textContent: title"></h4>
+                    <h6 data-win-bind="textContent: text"></h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- The declarative markup necesary for ListView instantiation -->
+        <!-- Call WinJS.UI.processAll() in your initialization code -->
+        <div class="container">
+            <div id="stepsList" class="listView win-selectionstylefilled"
+                 data-win-control="WinJS.UI.ListView"
+                 data-win-options="{
+                itemDataSource: Steps.ListView.data.dataSource,
+                itemTemplate: select('.smallListIconTextTemplate'),
+                selectionMode: 'none',
+                tapBehavior: 'none',
+                layout: { type: WinJS.UI.ListLayout }
+        }">
+            </div>
+        </div>
+
+        <div class="box">
+            <div id="pane">
+                <button id="toggleNavBar">MENU</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

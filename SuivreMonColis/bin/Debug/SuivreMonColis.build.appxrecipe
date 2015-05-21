@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PCALEX</Machine>
+    <WindowsUser>Alexandre</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9ba4d9d1-5421-4299-806b-1d18f1df56fd</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\parcels\parcels.css">
+      <PackagePath>pages\parcels\parcels.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\search\searchResults.css">
+      <PackagePath>pages\search\searchResults.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\track\track.css">
+      <PackagePath>pages\track\track.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box.png">
+      <PackagePath>images\box.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2-1.png">
+      <PackagePath>images\box2-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2-2.png">
+      <PackagePath>images\box2-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2-3.png">
+      <PackagePath>images\box2-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2-4.png">
+      <PackagePath>images\box2-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2-5.png">
+      <PackagePath>images\box2-5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\box2.png">
+      <PackagePath>images\box2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\colissimo.png">
+      <PackagePath>images\colissimo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\help.png">
+      <PackagePath>images\help.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\home.png">
+      <PackagePath>images\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\location.png">
+      <PackagePath>images\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo150.scale-100.png">
+      <PackagePath>images\logo150.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\logo150.scale-180.png">
+      <PackagePath>images\logo150.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\splash.png">
+      <PackagePath>images\splash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\jquery-2.1.4.min.js">
+      <PackagePath>js\jquery-2.1.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\settings.js">
+      <PackagePath>js\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\toast.js">
+      <PackagePath>js\toast.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\js\track.js">
+      <PackagePath>js\track.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\help\help.js">
+      <PackagePath>pages\help\help.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\parcels\parcels.js">
+      <PackagePath>pages\parcels\parcels.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\search\searchResults.js">
+      <PackagePath>pages\search\searchResults.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\settings\settings.js">
+      <PackagePath>pages\settings\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\track\track.js">
+      <PackagePath>pages\track\track.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\help\help.html">
+      <PackagePath>pages\help\help.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\parcels\parcels.html">
+      <PackagePath>pages\parcels\parcels.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\search\searchResults.html">
+      <PackagePath>pages\search\searchResults.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\settings\settings.html">
+      <PackagePath>pages\settings\settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\pages\track\track.html">
+      <PackagePath>pages\track\track.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alexandre\documents\visual studio 2013\Projects\SuivreMonColis\SuivreMonColis\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
